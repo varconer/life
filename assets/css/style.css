@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+.control {
+    margin: 10px 0;
+}
+#game .row {
+    display: flex;
+}
+#game .row > div {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+}
+#game .row > div.life {
+    background-color: black;
+}
+
+@media (max-width: 500px) {
+    #game .row > div {
+        width: 10px;
+        height: 10px;
+    }
+}
